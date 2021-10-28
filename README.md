@@ -1306,7 +1306,3 @@ localhost:8080 에 접속하면 다음과 같은 화면이 뜬다.
 
 이 부분을 보완하기 위해 저장된 동영상 파일을 열어서 얼굴 인식을 할 수 있는 코드를 만들어서 다수가 있을 때 인식 테스트를 진행하여서 괜찮았지만 직접 사람으로 테스트를 많이 하지 못한 부분이 아쉬웠다.
 프로젝트 수업도 대면이 아니라 비대면으로 이뤄지다 보니 다른 팀들의 진행 상황이나 서로 필요한 부분에 대한 내용 공유가 안되다 보니 우리 팀 혼자 어두운 동굴을 지나는 기분이었던 것 같다. 물론 더 자유롭게 회의가 가능하고 피드백이 가능하다는 장점도 있었으나 아쉬운 부분들이 보이는 것 같다.
-
-
-- reference
-    pymysql 레퍼런스 링크: [https://pymysql.readthedocs.io/en/latest/modules/index.html#](https://pymysql.readthedocs.io/en/latest/modules/index.html#)
