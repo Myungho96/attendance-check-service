@@ -243,8 +243,6 @@ plot(paths=trainF, title='Train images')
 
 이런 결과를 얻을 수 있다.
 
-(사진 부분은 포폴로 사용할 때 편집할 것. 팀원 얼굴 지운 버전으로 올리기.)
-
 **Data transform**
 
 ```python
