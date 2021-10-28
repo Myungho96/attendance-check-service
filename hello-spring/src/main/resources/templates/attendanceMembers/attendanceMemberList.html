@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+<div class="container">
+    <div>
+        <table>
+            <thead>
+            <tr>
+                <th>#</th>
+                <th>학번</th>
+                <th>전공</th>
+                <th>이름</th>
+                <th>출석시간</th>
+                <th>출석빈도</th>
+                <th>결과</th>
+                <th>날짜</th>
+                <th>교수님</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:each="attendanceMember : ${attendanceMembers}">
+                <td th:text="${attendanceMember.id}"></td>
+                <td th:text="${attendanceMember.num}"></td>
+                <td th:text="${attendanceMember.major}"></td>
+                <td th:text="${attendanceMember.name}"></td>
+                <td th:text="${attendanceMember.time}"></td>
+                <td th:text="${attendanceMember.frequency}"></td>
+                <td th:text="${attendanceMember.result}"></td>
+                <td th:text="${attendanceMember.day}"></td>
+                <td th:text="${attendanceMember.professor}"></td>
+            </tr>
+            </tbody>
+        </table>
+        <p>
+            <button type="button" onclick="location.href='/' ">돌아가기</button>
+
+        </p>
+    </div>
+</div> <!-- /container -->
+</body>
+</html>

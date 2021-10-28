@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+<div class="container">
+    <div>
+        <h1>출석 시작</h1>
+        <h3>출석 시간 설정</h3>
+        <p>
+            <form action="/setTime" method="get">
+                <label for="time">출석 시간 입력(초)</label>
+                <input type="number" id="time" name="time" placeholder="출석 시간을 입력하세요">
+                <button type="submit">실행</button>
+            </form>
+
+        </p>
+    </div>
+</div>
+</body>
+</html>

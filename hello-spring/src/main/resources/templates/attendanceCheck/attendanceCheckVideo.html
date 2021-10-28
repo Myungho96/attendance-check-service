@@ -1,0 +1,37 @@
+<script type="text/javascript">
+    //<![CDATA[
+    function calcHeight(){
+        //find the height of the internal page
+
+        var the_height=
+            document.getElementById('the_iframe').contentWindow.
+                document.body.scrollHeight;
+
+        //change the height of the iframe
+        document.getElementById('the_iframe').height=
+            the_height;
+
+        //document.getElementById('the_iframe').scrolling = "no";
+        document.getElementById('the_iframe').style.overflow = "hidden";
+    }
+    //
+</script>
+
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8  offset-lg-2">
+            <h2>출석 체크 중 ...</h2>
+            <p>
+                <button type="button" onclick="location.href='/' ">홈으로</button>
+            </p>
+            <iframe src="http://127.0.0.1:5000/" style="display:block; width:100vw; height: 100vh"></iframe>
+            <!-- <iframe src="http://127.0.0.1:5000/" id="the_iframe" onload="calcHeight();" name="WrittenPublic" title="게시판뷰" frameborder="0" scrolling="no" style="overflow-x:hidden; overflow:auto; width:100%; min-height:500px;"></iframe> -->
+
+        </div>
+    </div>
+</div>
+</body>
+</html>
