@@ -239,7 +239,7 @@ def plot(paths=None, images=None, titles=None, axtitle=True, title='', to_size=(
 plot(paths=trainF, title='Train images')
 ```
 
-![Untitled](%E1%84%87%E1%85%A9%E1%84%80%E1%85%A9%E1%84%89%E1%85%A5(%E1%84%8C%E1%85%A5%E1%86%AB%E1%84%8E%E1%85%A6)%201283c28b08a3400aa55fbdd236441729/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/59616266/139295296-d04520a8-d1e7-426a-b3a8-db507fd7c416.png)
 
 이런 결과를 얻을 수 있다.
 
@@ -1247,19 +1247,23 @@ public class AttendanceMemberService {
 
 ### 5. 결과
 
-![스크린샷(58).png](%E1%84%87%E1%85%A9%E1%84%80%E1%85%A9%E1%84%89%E1%85%A5(%E1%84%8C%E1%85%A5%E1%86%AB%E1%84%8E%E1%85%A6)%201283c28b08a3400aa55fbdd236441729/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7(58).png)
+![스크린샷(58)](https://user-images.githubusercontent.com/59616266/139295461-a4ebdfb1-8452-45d9-b234-4f5a5415f3d9.png)
+
 
 localhost:8080 에 접속하면 다음과 같은 화면이 뜬다.
 
-![스크린샷(59).png](%E1%84%87%E1%85%A9%E1%84%80%E1%85%A9%E1%84%89%E1%85%A5(%E1%84%8C%E1%85%A5%E1%86%AB%E1%84%8E%E1%85%A6)%201283c28b08a3400aa55fbdd236441729/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7(59).png)
+![스크린샷(59)](https://user-images.githubusercontent.com/59616266/139295477-a94ca97d-2a3a-4cc9-a285-03a52d7d70ed.png)
+
 
 수업 시작 버튼을 누르면, 다음과 같은 화면이 뜬다. 총 수업 시간을 입력하고 실행 버튼을 누르면 실시간 스트리밍 영상이 켜진다.
 
-![7530C830-3E68-4E3F-A78A-42AF02CA8CB5.jpeg](%E1%84%87%E1%85%A9%E1%84%80%E1%85%A9%E1%84%89%E1%85%A5(%E1%84%8C%E1%85%A5%E1%86%AB%E1%84%8E%E1%85%A6)%201283c28b08a3400aa55fbdd236441729/7530C830-3E68-4E3F-A78A-42AF02CA8CB5.jpeg)
+![7530C830-3E68-4E3F-A78A-42AF02CA8CB5](https://user-images.githubusercontent.com/59616266/139295518-f96f29e5-a600-4ce3-a7de-b8aec5a5f8b9.jpeg)
+
 
 인식한 대상에 bounding box가 쳐지고, tracking하며 대상을 인식한다. 앞서서 입력한 시간이 지나면 영상은 자동으로 중단되고, 출결 여부는 데이터베이스에 저장된다.
 
-![스크린샷(62).png](%E1%84%87%E1%85%A9%E1%84%80%E1%85%A9%E1%84%89%E1%85%A5(%E1%84%8C%E1%85%A5%E1%86%AB%E1%84%8E%E1%85%A6)%201283c28b08a3400aa55fbdd236441729/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7(62).png)
+![스크린샷(62)](https://user-images.githubusercontent.com/59616266/139295535-d9a8c6ec-148c-46a0-a3c1-0b37f3bf0410.png)
+
 
 홈 화면의 출석현황을 누르면 데이터베이스에서 불러온 출석부가 보인다.
 
